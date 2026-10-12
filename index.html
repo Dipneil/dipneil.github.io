@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Dipanjan Pramanik | Sales, Channel & Business Transformation</title>
+<meta name="description" content="Sales & Marketing professional with experience in channel management, business development and business transformation.">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>📈</text></svg>">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Archivo:wdth,wght@62..125,400..800&family=Source+Serif+4:opsz,wght@8..60,400;8..60,600&display=swap" rel="stylesheet">
+<style>
+:root{
+  --bg:#E8EAEB; --surface:#F5F6F6; --ink:#17252E; --muted:#51616B; --line:#C5CBCE;
+  --accent:#1F4FD8; --bar:#9AA6AD; --on-accent:#fff;
+  --head:"Archivo","Arial Narrow",Arial,sans-serif;
+  --body:"Source Serif 4",Georgia,"Times New Roman",serif;
+}
+@media (prefers-color-scheme:dark){
+  :root:not([data-theme="light"]){--bg:#121A20;--surface:#1A242C;--ink:#E7ECEE;--muted:#9FAEB7;--line:#2C3943;--accent:#6E96FF;--bar:#4A5A65;--on-accent:#0B1220}
+}
+:root[data-theme="dark"]{--bg:#121A20;--surface:#1A242C;--ink:#E7ECEE;--muted:#9FAEB7;--line:#2C3943;--accent:#6E96FF;--bar:#4A5A65;--on-accent:#0B1220}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth;scroll-padding-top:4.5rem}
+body{margin:0;background:var(--bg);color:var(--ink);font:1.0625rem/1.65 var(--body)}
+a{color:inherit}
+:focus-visible{outline:3px solid var(--accent);outline-offset:3px}
+.wrap{max-width:62rem;margin:0 auto;padding:0 1.25rem}
+header{position:sticky;top:0;z-index:5;background:var(--bg);border-bottom:1px solid var(--line)}
+header .wrap{display:flex;align-items:center;justify-content:space-between;gap:1rem;min-height:3.5rem}
+.logo{font:700 1rem var(--head);font-stretch:110%;text-decoration:none;letter-spacing:.01em}
+nav{display:flex;gap:1.1rem;align-items:center;font:500 .9rem var(--head)}
+nav a{text-decoration:none;color:var(--muted)}
+nav a:hover{color:var(--ink)}
+button.theme{font:600 .8rem var(--head);background:none;color:var(--ink);border:1px solid var(--line);border-radius:2rem;padding:.3rem .8rem;cursor:pointer}
+@media(max-width:640px){nav a{display:none}}
+
+.hero{padding:4rem 0 3rem}
+h1{font:800 clamp(2.8rem,9vw,6.5rem)/.95 var(--head);font-stretch:75%;letter-spacing:-.01em;margin:0 0 1.2rem}
+.role{font:600 1.25rem/1.3 var(--head);color:var(--accent);margin:0 0 1rem}
+.hero p.lead{max-width:40rem;color:var(--muted);margin:0 0 1.5rem}
+.btns{display:flex;flex-wrap:wrap;gap:.75rem}
+.btn{font:600 .95rem var(--head);padding:.65rem 1.2rem;border-radius:.3rem;text-decoration:none;border:1.5px solid var(--ink)}
+.btn.primary{background:var(--accent);border-color:var(--accent);color:var(--on-accent)}
+
+.chart{margin-top:3rem;background:var(--surface);border:1px solid var(--line);border-radius:.5rem;padding:1.5rem}
+.chart h2{font:700 1.05rem var(--head);margin:0 0 .25rem}
+.chart .sub{margin:0 0 1.25rem;color:var(--muted);font-size:.95rem}
+.row{display:grid;grid-template-columns:9.5rem 1fr;gap:1rem;align-items:center;margin:.9rem 0}
+.row .lab{font:600 .9rem/1.25 var(--head)}
+.bars{display:grid;gap:.35rem}
+.bar{display:flex;align-items:center;height:2rem;border-radius:.2rem;font:600 .85rem var(--head);padding:0 .6rem;white-space:nowrap;color:var(--ink);background:var(--bar);width:var(--w);transform-origin:left;animation:grow 1.1s cubic-bezier(.2,.7,.2,1) both}
+.bar.after{background:var(--accent);color:var(--on-accent);animation-delay:.35s}
+@keyframes grow{from{transform:scaleX(0)}}
+.gain{font:700 .9rem var(--head);color:var(--accent)}
+@media(max-width:560px){.row{grid-template-columns:1fr;gap:.4rem}}
+
+section{padding:3.5rem 0;border-top:1px solid var(--line)}
+h2.title{font:800 clamp(1.8rem,4vw,2.6rem)/1.1 var(--head);font-stretch:85%;margin:0 0 2rem}
+.job{display:grid;grid-template-columns:12rem 1fr;gap:1.5rem;padding-bottom:2.5rem;margin-bottom:2.5rem;border-bottom:1px solid var(--line)}
+.job:last-child{border:0;margin:0;padding:0}
+.job .when{font:500 .9rem var(--head);color:var(--muted)}
+.job h3{font:700 1.3rem/1.2 var(--head);margin:0}
+.job .org{font:500 1rem var(--head);color:var(--muted);margin:.15rem 0 .9rem}
+ul{margin:0;padding-left:1.2rem}
+li{margin:.4rem 0;max-width:46rem}
+li::marker{color:var(--accent)}
+@media(max-width:720px){.job{grid-template-columns:1fr;gap:.5rem}}
+
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(16rem,1fr));gap:2rem}
+.grid h3,.sk h3{font:700 1.1rem var(--head);margin:0 0 .2rem}
+.grid p{margin:.1rem 0;color:var(--muted)}
+.score{font:700 .95rem var(--head);color:var(--accent)}
+.chips{display:flex;flex-wrap:wrap;gap:.5rem;margin:.6rem 0 1.5rem;padding:0;list-style:none}
+.chips li{margin:0;font:500 .9rem var(--head);border:1px solid var(--line);background:var(--surface);padding:.3rem .75rem;border-radius:2rem}
+.workflow{font:500 .95rem var(--head);color:var(--muted)}
+footer{border-top:1px solid var(--line);padding:2rem 0;color:var(--muted);font:.9rem var(--head)}
+@media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}.bar{animation:none}}
+</style>
+</head>
+<body>
+<header>
+  <div class="wrap">
+    <a class="logo" href="#top">Dipanjan Pramanik</a>
+    <nav aria-label="Main">
+      <a href="#experience">Experience</a><a href="#education">Education</a><a href="#skills">Skills</a><a href="#projects">Projects</a><a href="#contact">Contact</a>
+      <button class="theme" id="theme" type="button" aria-label="Switch colour theme">Dark mode</button>
+    </nav>
+  </div>
+</header>
+
+<main id="top">
+<div class="wrap">
+  <div class="hero">
+    <h1>Dipanjan Pramanik</h1>
+    <p class="role">Sales, channel management and business transformation</p>
+    <p class="lead">I have 2+ years of experience across business transformation, sales, channel management and business development. I currently work in the Transformation Office at Star Cement, using market data to find savings and growth. Before that I grew premium product sales at Adani Cements.</p>
+    <div class="btns">
+      <a class="btn primary" href="mailto:dipanjanneil@gmail.com">Email me</a>
+      <a class="btn" href="https://www.linkedin.com/in/dipanjan-pramanik" target="_blank" rel="noopener">LinkedIn</a>
+    </div>
+
+    <div class="chart" role="img" aria-label="Adani Cements Howrah territory: premium product volume grew 20 percent from 12,000 to 14,400 metric tons, and overall volume grew 10 percent from 40,000 to 44,000 metric tons.">
+      <h2>Results at Adani Cements, Howrah territory</h2>
+      <p class="sub">Year-on-year volume in metric tons (MT)</p>
+      <div class="row">
+        <div class="lab">Premium products<br><span class="gain">+20%</span></div>
+        <div class="bars">
+          <div class="bar" style="--w:27%">12,000 MT</div>
+          <div class="bar after" style="--w:33%">14,400 MT</div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="lab">Overall sales<br><span class="gain">+10%</span></div>
+        <div class="bars">
+          <div class="bar" style="--w:91%">40,000 MT</div>
+          <div class="bar after" style="--w:100%">44,000 MT</div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<section id="experience">
+<div class="wrap">
+  <h2 class="title">Experience</h2>
+
+  <article class="job">
+    <div class="when">August 2026 to present<br>Guwahati, Assam</div>
+    <div>
+      <h3>Executive, Transformation Office</h3>
+      <p class="org">Star Cement</p>
+      <ul>
+        <li>Drive cross-functional transformation initiatives by finding opportunities across focus markets, aligning stakeholders and making sure targeted business outcomes are delivered.</li>
+        <li>Identify and support cost-saving and market-growth initiatives, using business data and market intelligence to improve efficiency and share of wallet.</li>
+        <li>Track initiative-wise performance and savings realisation, and flag deviations from target.</li>
+        <li>Build management insights and business reports from performance data, market trends and key KPIs.</li>
+        <li>Find process gaps and inefficiencies, and support solutions that improve productivity and cost efficiency.</li>
+        <li>Run market intelligence and market-storming activities to understand competition, channel behaviour and share-of-wallet opportunities.</li>
+      </ul>
+    </div>
+  </article>
+
+  <article class="job">
+    <div class="when">April 2026 to July 2026<br>Kolkata, West Bengal</div>
+    <div>
+      <h3>Business Development Associate</h3>
+      <p class="org">G.K. House of EdTech</p>
+      <ul>
+        <li>Generated 7× the average revenue benchmark through lead conversion and customer engagement.</li>
+        <li>Onboarded the highest number of B2C clients in the team through lead nurturing and consultative selling.</li>
+        <li>Managed lead qualification, prospecting and follow-ups to maximise conversion and meet revenue targets.</li>
+        <li>Matched customers' career and professional needs with relevant upskilling programmes.</li>
+        <li>Handled objections and guided solution-focused discussions to support purchase decisions.</li>
+        <li>Managed the sales pipeline in a CRM, prioritising high-potential leads.</li>
+        <li>Tracked conversion and sales metrics to find ways to improve productivity, and fed customer feedback and market insights back to internal teams.</li>
+      </ul>
+    </div>
+  </article>
+
+  <article class="job">
+    <div class="when">June 2024 to December 2025<br>Howrah, West Bengal</div>
+    <div>
+      <h3>Assistant Manager, Sales &amp; Marketing</h3>
+      <p class="org">Adani Cements</p>
+      <ul>
+        <li>Grew Premium Product sales 20% year on year, from 12,000 MT to 14,400 MT.</li>
+        <li>Grew overall territory volume 10% year on year, from 40,000 MT to 44,000 MT.</li>
+        <li>Drove Premium Product penetration through retailer engagement, demand generation and targeted market initiatives.</li>
+        <li>Managed a network of 10 dealers and 60 sub-dealers/ARS, driving territory sales, channel development and partner productivity.</li>
+        <li>Built territory-wise sales plans and tracked monthly targets to find and close business gaps.</li>
+        <li>Identified untapped counters to widen network coverage and market penetration.</li>
+        <li>Monitored competitor pricing, market movement and channel activity to inform market strategy.</li>
+      </ul>
+    </div>
+  </article>
+</div>
+</section>
+
+<section id="education">
+<div class="wrap">
+  <h2 class="title">Education and certifications</h2>
+  <div class="grid">
+    <div><h3>MBA</h3><p>Bennett University, School of Management</p><p>2022 to 2024</p><p class="score">8.0 CGPA</p></div>
+    <div><h3>Bachelor's degree</h3><p>NSHM Knowledge Campus, School of Management Studies</p><p>2019 to 2022</p><p class="score">9.0 CGPA</p></div>
+    <div><h3>Data Science</h3><p>Professional Certificate Course, Newton School</p><p>In progress</p></div>
+    <div><h3>Advanced Excel, Power BI and Tableau</h3><p>ExcelR</p><p>July 2023</p></div>
+    <div><h3>Digital Marketing, Course 3: From Likes to Leads</h3><p>Google</p><p>July 2023</p></div>
+    <div><h3>Digital Marketing, Course 2: Attract and Engage Customers</h3><p>Google</p><p>July 2023</p></div>
+    <div><h3>Digital Marketing, Course 1: Foundations of Digital Marketing</h3><p>Google</p><p>July 2023</p></div>
+  </div>
+</div>
+</section>
+
+<section id="skills">
+<div class="wrap sk">
+  <h2 class="title">Skills</h2>
+  <h3>Technical</h3>
+  <ul class="chips"><li>Microsoft Office Suites</li><li>Power BI</li></ul>
+  <h3>Business</h3>
+  <ul class="chips">
+    <li>Territory &amp; market management</li><li>Channel management</li><li>Market intelligence</li><li>Strategic planning &amp; execution</li><li>Data-driven decision making</li><li>KPI monitoring</li><li>Management reporting</li><li>Operational excellence</li>
+  </ul>
+</div>
+</section>
+
+<section id="projects">
+<div class="wrap">
+  <h2 class="title">Projects</h2>
+  <div class="grid">
+    <div>
+      <h3 style="font:700 1.2rem var(--head);margin:0">Unleashing Sales Potential in the Public Market</h3>
+      <p class="workflow" style="margin:.2rem 0 .8rem">November 2023</p>
+      <p style="margin:0">I studied customer behaviour and practised dynamic product pitching across Noida and Greater Noida, selling directly to the public at a profit.</p>
+    </div>
+    <div>
+      <h3 style="font:700 1.2rem var(--head);margin:0">Conflict Management</h3>
+      <p class="workflow" style="margin:.2rem 0 .8rem">April 2024</p>
+      <p style="margin:0">I built multicultural communication skills and learned the principles of conflict resolution. I analysed a real conflict and presented a management and resolution strategy for intercultural disputes.</p>
+    </div>
+  </div>
+</div>
+</section>
+
+<section id="contact">
+<div class="wrap">
+  <h2 class="title">Contact</h2>
+  <p style="max-width:40rem;margin:0 0 1.5rem">Based in Durgapur, West Bengal. I'm happy to talk about sales, channel and transformation roles.</p>
+  <div class="btns">
+    <a class="btn primary" href="mailto:dipanjanneil@gmail.com">dipanjanneil@gmail.com</a>
+    <a class="btn" href="https://www.linkedin.com/in/dipanjan-pramanik" target="_blank" rel="noopener">LinkedIn</a>
+  </div>
+</div>
+</section>
+</main>
+
+<footer><div class="wrap">© <span id="yr">2026</span> Dipanjan Pramanik</div></footer>
+
+<script>
+(function(){
+  var root=document.documentElement,btn=document.getElementById('theme');
+  function isDark(){var t=root.getAttribute('data-theme');return t?t==='dark':window.matchMedia('(prefers-color-scheme: dark)').matches}
+  function label(){btn.textContent=isDark()?'Light mode':'Dark mode'}
+  btn.addEventListener('click',function(){root.setAttribute('data-theme',isDark()?'light':'dark');label()});
+  label();
+  document.getElementById('yr').textContent=new Date().getFullYear();
+})();
+</script>
+</body>
+</html>
